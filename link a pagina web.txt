@@ -1,0 +1,25 @@
+
+
+
+Link de acceso a la pagina:
+
+https://javierferrec.github.io/JavierFerre-ProyectoFinal-Javascript/index.html
+
+
+
+Tuve muchon inconvenientes para porder hacer todo lo que tenìa pensado, en primer caso 
+tengo problemas con la computadora, el antivirus detectaba algo en mi còdigo y no me 
+permitia hacer todas las funcionalidades que deseaba colocar, tambièn tube problemas
+CORS y no encontraba con solucionar.
+
+Por otra parte esta entrega coincidìo con la entrega de mi otro proyecto de Ui / Ux y han
+sido semanas muy duras para llevar a cabo ambas en paralelo.
+
+
+Estoy agradecido con Uds por haberme dado las bases para seguir adelante y continuar en este camino
+
+Atte. Javier Ferre
+
+
+
+
