@@ -1,0 +1,575 @@
+
+
+
+
+/* Estilos comunes */
+
+
+.page {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.pagefix {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.top-bar {
+  width: 100%;
+  height: 6rem;
+  background-color: #007bff;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.top-logo {
+  height: 3rem;
+}
+
+.project-title {
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.video-container {
+  width: 70%;
+  height: 100%;
+  position: relative;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.app-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 60%;
+}
+
+.login-container {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  z-index: 1;
+  margin: 1rem 0;
+}
+
+h2 {
+  margin: 0 0 1rem;
+}
+
+form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-control {
+  width: 100%;
+}
+
+#login-button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+#login-button:hover {
+  background-color: #007bff;
+}
+
+#login-button:active {
+  background-color: #0056b3;
+
+
+
+}
+
+/* Estilos para la página principal */
+.top-bar .div-logo .logo {
+  height: 5rem;
+  margin-left: 0.01rem;
+  display: flex;
+  align-items: center;
+}
+
+.top-bar .div-titulo {
+  font-size: 2.5rem;
+  line-height: 4rem;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.top-bar .div-cierre {
+  display: flex;
+  align-items: center;
+}
+
+.top-bar .div-cierre .icon-cerrar {
+  height: 2rem;
+  margin-right: 2rem;
+  margin-top: 0.5rem;
+}
+
+.top-bar {
+  margin-bottom: 3rem;
+}
+
+.top-barfix {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+
+}
+
+.nav {
+  display: flex;
+  margin-left: 5rem;
+}
+
+.icon-volver {
+  height: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.icon-cerrar {
+  height: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.div-volver,
+.div-cierre {
+  display: inline-block !important;
+  margin-left: 0.5rem;
+}
+
+.usuario-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  margin-top: 2rem;
+  margin: 0;
+  margin-bottom: 2rem;
+  background-color: #000000;
+  position: fixed;
+  }
+
+.usuario-containerfix {
+    top: 0;
+    z-index: 2;
+  }
+
+.usuario-container .usuario-icon {
+  height: 70%;
+  margin-left: 0.5rem;
+}
+
+.icon-usuario {
+  height: 65%;
+  margin-right: 0.9rem;
+  margin-left: 1rem;
+  margin-top: 0.3rem;
+}
+
+.usuario-container .fecha-hora {
+  color: #ffffff;
+  font-size: 1.2rem;
+  text-align: right;
+  margin-right: 0.5rem;
+  margin-left: 38rem;
+}
+
+.usuario-container {
+  margin-top: 6rem;
+}
+
+.usuario-nombre {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.botones-container {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  margin-top: 16rem;
+}
+
+.botones-container .boton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 12rem;
+  height: 12rem;
+  margin: 0 2rem;
+  text-decoration: none;
+  background-color: #007bff;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 0.3s;
+}
+
+.botones-container .boton:hover {
+  background-color: #0056b3;
+}
+
+.botones-container .boton .icon-boton {
+  max-width: 70%;
+}
+
+.botones-container .boton span {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.5rem;
+}
+
+.footer {
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1rem 0.5rem;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.3rem;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.footerfx {
+  position: fixed;
+}
+
+
+
+
+
+/* Estilos para la tabla de stock */
+
+table {
+  margin-top: 12rem;
+  margin-bottom: 6rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  width: auto;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  width: auto;
+  white-space: wrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+.columna-pequeno {
+  width: 5%;
+}
+
+.columna-medio {
+  width: 10%;
+}
+
+.columna-caracteristicas {
+  width: 20%;
+  max-width: 150px; /* Ancho máximo para Características */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.main-container_var {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.formulario-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.movimientos-table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+  border: 1px solid #ccc;
+}
+
+.movimientos-table th, .movimientos-table td {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.movimientos-table thead {
+  background-color: rgb(135, 174, 229);
+  color: #fff;
+}
+
+/* Otros estilos específicos para la tabla de movimientos */
+.form-container {
+  height: 25rem;
+  width: 98%;
+  display: flex;
+  margin: 10rem auto auto 1rem;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  background-color: #fff;
+  overflow: auto;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+/* Estilos para los elementos del formulario */
+.selectors {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+#producto-codigo {
+  width: 30%;
+  font-size: 1rem;
+  font-weight: 900;
+}
+
+#producto-modelo {
+  width: 35%;
+  margin-left: 10px;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  font-weight: 900;
+}
+
+.info {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+margin-top: 2rem;
+margin-bottom: 5rem;
+font-size: 1.5rem;
+}
+.info p {
+  margin: 0.5rem 0;
+}
+
+#cantidad {
+  width: 60px;
+  height: 2rem;
+  background-color: transparent;
+}
+
+/* Estilos para los botones */
+button {
+  margin-right: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#procesar {
+  background-color: transparent;
+
+}
+
+#agregar {
+  width: 7rem;
+  border-radius: 8px;
+}
+
+#cancelar {
+  width: 7rem;
+  border-radius: 8px;
+}
+
+#salir {
+  width: 7rem;
+  border-radius: 8px;
+}
+
+
+
+
+/* Estilos para la imagen del producto */
+#producto-imagen {
+  max-width: 90%;
+  max-height: 90%;
+}
+
+/* Estilos para la imagen por defecto (STANDBY) */
+#producto-imagen[src*='STANDBY'] {
+  max-width: 90%;
+  max-height: 90%;
+}

@@ -1,0 +1,184 @@
+{
+  "stock": [
+    {
+      "Codigo": "SAM-S23U",
+      "Marca": "Samsung",
+      "Modelo": "Galaxy S23 Ultra",
+      "Caracteristicas": "Pantalla AMOLED de 6,8 pulgadas, procesador Snapdragon 8 Gen 2, 12 GB de RAM, 512 GB de almacenamiento, cámara principal de 200 MP, cámara frontal de 40 MP, batería de 5.000 mAh",
+      "Memoria_interna": "512 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 1299,
+      "Stock": 12
+    },
+    {
+      "Codigo": "SAM-S23P",
+      "Marca": "Samsung",
+      "Modelo": "Galaxy S23+",
+      "Caracteristicas": "Pantalla AMOLED de 6,6 pulgadas, procesador Snapdragon 8 Gen 2, 8 GB de RAM, 256 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 32 MP, batería de 4.500 mAh",
+      "Memoria_interna": "256 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 1099,
+      "Stock": 10
+    },
+    {
+      "Codigo": "SAM-S23",
+      "Marca": "Samsung",
+      "Modelo": "Galaxy S23",
+      "Caracteristicas": "Pantalla AMOLED de 6,1 pulgadas, procesador Snapdragon 8 Gen 2, 6 GB de RAM, 128 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 10 MP, batería de 4.000 mAh",
+      "Memoria_interna": "128 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 899,
+      "Stock": 12
+    },
+    {
+      "Codigo": "SAM-A545G",
+      "Marca": "Samsung",
+      "Modelo": "Galaxy A54 5G",
+      "Caracteristicas": "Pantalla AMOLED de 6,5 pulgadas, procesador Snapdragon 778G, 6 GB de RAM, 128 GB de almacenamiento, cámara principal de 64 MP, cámara frontal de 32 MP, batería de 5.000 mAh",
+      "Memoria_interna": "128 GB",
+      "Sistema_operativo": "Android 12",
+      "Precio": 549,
+      "Stock": 16
+    },
+    {
+      "Codigo": "SAM-A345G",
+      "Marca": "Samsung",
+      "Modelo": "Galaxy A34 5G",
+      "Caracteristicas": "Pantalla AMOLED de 6,4 pulgadas, procesador Dimensity 700, 4 GB de RAM, 64 GB de almacenamiento, cámara principal de 48 MP, cámara frontal de 13 MP, batería de 5.000 mAh",
+      "Memoria_interna": "64 GB",
+      "Sistema_operativo": "Android 12",
+      "Precio": 399,
+      "Stock": 10
+    },
+    {
+      "Codigo": "MOT-R40U",
+      "Marca": "Motorola",
+      "Modelo": "Razr 40 Ultra",
+      "Caracteristicas": "Pantalla plegable OLED de 6,7 pulgadas, procesador Snapdragon 8 Gen 2, 12 GB de RAM, 512 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 60 MP, batería de 3.000 mAh",
+      "Memoria_interna": "512 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 1499,
+      "Stock": 8
+    },
+    {
+      "Codigo": "MOT-E40P",
+      "Marca": "Motorola",
+      "Modelo": "Edge 40 Pro",
+      "Caracteristicas": "Pantalla OLED de 6,7 pulgadas, procesador Snapdragon 8 Gen 2, 12 GB de RAM, 256 GB de almacenamiento, cámara principal de 108 MP, cámara frontal de 60 MP, batería de 5.000 mAh",
+      "Memoria_interna": "256 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 1099,
+      "Stock": 9
+    },
+    {
+      "Codigo": "MOT-E40",
+      "Marca": "Motorola",
+      "Modelo": "Edge 40",
+      "Caracteristicas": "Pantalla OLED de 6,7 pulgadas, procesador Snapdragon 8 Gen 2, 8 GB de RAM, 128 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 32 MP, batería de 4.500 mAh",
+      "Memoria_interna": "128 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 899,
+      "Stock": 7
+    },
+    {
+      "Codigo": "MOT-E30U",
+      "Marca": "Motorola",
+      "Modelo": "Edge 30 Ultra",
+      "Caracteristicas": "Pantalla OLED de 6,7 pulgadas, procesador Snapdragon 8 Gen 2, 12 GB de RAM, 256 GB de almacenamiento, cámara principal de 108 MP, cámara frontal de 32 MP, batería de 5.000 mAh",
+      "Memoria_interna": "256 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 799,
+      "Stock": 12
+    },
+    {
+      "Codigo": "MOT-E30F",
+      "Marca": "Motorola",
+      "Modelo": "Edge 30 Fusion",
+      "Caracteristicas": "Pantalla OLED de 6,7 pulgadas, procesador Snapdragon 778G, 8 GB de RAM, 128 GB de almacenamiento, cámara principal de 108 MP, cámara frontal de 32 MP, batería de 5.000 mAh",
+      "Memoria_interna": "128 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 599,
+      "Stock": 17
+    },
+    {
+      "Codigo": "MOT-G71",
+      "Marca": "Motorola",
+      "Modelo": "Moto G71",
+      "Caracteristicas": "Pantalla LCD de 6,4 pulgadas, procesador Snapdragon 695, 6 GB de RAM, 128 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 13 MP, batería de 5.000 mAh",
+      "Memoria_interna": "128 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 279,
+      "Stock": 18
+    },
+    {
+      "Codigo": "XIA-13P",
+      "Marca": "Xiaomi",
+      "Modelo": "13 Pro",
+      "Caracteristicas": "Pantalla AMOLED de 6,73 pulgadas, procesador Snapdragon 8 Gen 2, 12 GB de RAM, 512 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 32 MP, batería de 4.600 mAh",
+      "Memoria_interna": "512 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 1299,
+      "Stock": 10
+    },
+    {
+      "Codigo": "XIA-12SP",
+      "Marca": "Xiaomi",
+      "Modelo": "12S Pro",
+      "Caracteristicas": "Pantalla AMOLED de 6,73 pulgadas, procesador Snapdragon 8 Gen 1, 8 GB de RAM, 256 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 32 MP, batería de 4.600 mAh",
+      "Memoria_interna": "256 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 999,
+      "Stock": 6
+    },
+    {
+      "Codigo": "XIA-R12P5G",
+      "Marca": "Xiaomi",
+      "Modelo": "Redmi Note 12 Pro+ 5G",
+      "Caracteristicas": "Pantalla AMOLED de 6,7 pulgadas, procesador Dimensity 9000, 8 GB de RAM, 256 GB de almacenamiento, cámara principal de 108 MP, cámara frontal de 16 MP, batería de 5.000 mAh",
+      "Memoria_interna": "256 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 599,
+      "Stock": 8
+    },
+    {
+      "Codigo": "GOOG-P7",
+      "Marca": "Google",
+      "Modelo": "Pixel 7",
+      "Caracteristicas": "Pantalla AMOLED de 6,3 pulgadas, procesador Tensor G2, 8 GB de RAM, 128 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 10 MP, batería de 4.500 mAh",
+      "Memoria_interna": "128 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 899,
+      "Stock": 10
+    },
+    {
+      "Codigo": "GOOG-P6",
+      "Marca": "Google",
+      "Modelo": "Pixel 6",
+      "Caracteristicas": "Pantalla OLED de 6,4 pulgadas, procesador Tensor G1, 8 GB de RAM, 128 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 8 MP, batería de 4.614 mAh",
+      "Memoria_interna": "128 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 599,
+      "Stock": 7
+    },
+    {
+      "Codigo": "SONY-X5IV",
+      "Marca": "Sony",
+      "Modelo": "Xperia 5 IV",
+      "Caracteristicas": "Pantalla OLED de 6,1 pulgadas, procesador Snapdragon 8 Gen 2, 8 GB de RAM, 256 GB de almacenamiento, cámara principal de 12 MP, cámara frontal de 12 MP, batería de 4.500 mAh",
+      "Memoria_interna": "256 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 1099,
+      "Stock": 6
+    },
+    {
+      "Codigo": "SONY-X10IV",
+      "Marca": "Sony",
+      "Modelo": "Xperia 10 IV",
+      "Caracteristicas": "Pantalla OLED de 6,5 pulgadas, procesador Snapdragon 695, 6 GB de RAM, 128 GB de almacenamiento, cámara principal de 50 MP, cámara frontal de 8 MP, batería de 5.000 mAh",
+      "Memoria_interna": "128 GB",
+      "Sistema_operativo": "Android 13",
+      "Precio": 599,
+      "Stock": 8
+    }
+  ]
+}

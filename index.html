@@ -1,11 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es" class="page">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - JFC INVENTORY MANAGER</title>
+    <link rel="icon" href="assets/logos/favicon.png" type="image/png" sizes="64x64">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-  
+<body class="page fixed-height">
+    <div class="top-bar">
+        <div class="container">
+            <img src="assets/logos/logo_coder.png" alt="Logo del instituto Coder House" class="top-logo">
+            <span class="project-title">Proyecto final Javascript – Javier Ferre</span>
+        </div>
+    </div>
+    <div class="main-container">
+        <div class="video-container">
+            <video autoplay loop muted>
+                <source src="assets/videos/inventory.mp4" type="video/mp4">
+                Tu navegador no soporta videos HTML5.
+            </video>
+            <div class="video-overlay"></div>
+            <img src="assets/logos/logo_jfc.svg" alt="Logo de la aplicación" class="app-logo">
+        </div>
+        <div class="login-container">
+            <h2>Bienvenidos al sistema de gestión de inventario</h2>
+            <p>Por favor, ingrese su nombre para ingresar.</p>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
+                </div>
+                <button type="submit" class="btn btn-primary" id="login-button">Ingresar</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
